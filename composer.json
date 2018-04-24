@@ -2,7 +2,7 @@
     "name": "awoyotoyin/zfe-auth",
     "type": "library",
     "description": "Common Library for Zend Expressive User Authentication",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "keywords": [
         "zend",
         "zend expressive",
@@ -25,7 +25,7 @@
     "require": {
         "php": "^5.6 || ^7.0",
         "dasprid/container-interop-doctrine": "^1.1",
-        "awoyotoyin/zfe-base": "dev-master",
+        "awoyotoyin/zfe-base": "~1.0.0",
         "zendframework/zend-crypt": "^3.2"
     },
     "require-dev": {
@@ -40,6 +40,5 @@
         "psr-4": {
             "Zfe\\AuthTest\\": "test/UserTest/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
