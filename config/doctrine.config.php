@@ -1,6 +1,6 @@
 <?php
 
-namespace Zfe\User;
+namespace Zfe\Auth;
 
 return [
     'doctrine' => [

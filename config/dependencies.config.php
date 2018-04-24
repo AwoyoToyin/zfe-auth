@@ -1,6 +1,6 @@
 <?php
 
-namespace Zfe\User;
+namespace Zfe\Auth;
 
 use Zend\ServiceManager\AbstractFactory\ConfigAbstractFactory;
 use Zend\ServiceManager\Factory\InvokableFactory;

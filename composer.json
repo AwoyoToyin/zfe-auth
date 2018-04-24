@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Zfe\\User\\": "src/"
+            "Zfe\\Auth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zfe\\UserTest\\": "test/UserTest/"
+            "Zfe\\AuthTest\\": "test/UserTest/"
         }
     }
 }

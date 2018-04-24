@@ -1,12 +1,12 @@
 <?php
 
-namespace Zfe\User;
+namespace Zfe\Auth;
 
 use Zend\ConfigAggregator\PhpFileProvider;
 use Zend\ConfigAggregator\ConfigAggregator;
 
 /**
- * The configuration provider for the User module
+ * The configuration provider for the Auth module
  *
  * @see https://docs.zendframework.com/zend-component-installer/
  */

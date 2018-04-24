@@ -5,7 +5,7 @@
  *
  * @author: Awoyo Oluwatoyin Stephen alias AwoyoToyin <awoyotoyin@gmail.com>
  */
-namespace Zfe\User\Service;
+namespace Zfe\Auth\Service;
 
 use Zfe\Common\Service\AbstractService;
 
