@@ -10,7 +10,7 @@
         "zend expressive user authentication",
         "expressive user authentication"
     ],
-    "homepage": "https://www.github.com/awoyotoyin/zfe-user",
+    "homepage": "https://www.github.com/awoyotoyin/zfe-auth",
     "license": "MIT",
     "config": {
         "sort-packages": true
