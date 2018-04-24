@@ -1,5 +1,5 @@
 {
-    "name": "awoyotoyin/zfe-user",
+    "name": "awoyotoyin/zfe-auth",
     "type": "library",
     "description": "Common Library for Zend Expressive User Authentication",
     "version": "0.0.1",
