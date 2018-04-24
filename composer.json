@@ -1,0 +1,44 @@
+{
+    "name": "awoyotoyin/zfe-user",
+    "type": "library",
+    "description": "Common Library for Zend Expressive User Authentication",
+    "version": "0.0.1",
+    "keywords": [
+        "zend",
+        "zend expressive",
+        "zend expressive user",
+        "zend expressive user authentication",
+        "expressive user authentication"
+    ],
+    "homepage": "https://www.github.com/awoyotoyin/zfe-user",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Awoyo Oluwatoyin",
+            "email": "awoyotoyin@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "dasprid/container-interop-doctrine": "^1.1",
+        "awoyotoyin/zfe-base": "dev-master",
+        "zendframework/zend-crypt": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0.8 || ^5.7.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zfe\\User\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zfe\\UserTest\\": "test/UserTest/"
+        }
+    }
+}
